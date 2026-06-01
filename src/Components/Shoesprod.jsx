@@ -11,6 +11,8 @@ const Shoesprod = ({ item }) => {
        </div>
    </div>
 
+   
+
     );
 };
 
