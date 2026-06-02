@@ -16,8 +16,8 @@ const Season = () => {
         </div>
 
         <div className="grid grid-cols-3 px-10 gap-10 mt-5">
-            {repeatedData.map((item)=>(
-                <div key={item.id} className="flex items-center gap-5 pb-6 border-b mt-5">
+            {repeatedData.map((item,index)=>(
+                <div key={`${item.id}-${index}`} className="flex items-center gap-5 pb-6 border-b mt-5">
                     
                     <SeasonProd item={item}/>
                 </div>

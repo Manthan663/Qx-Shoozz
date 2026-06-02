@@ -7,11 +7,13 @@ const SneakersProd = ({ item }) => {
       <div className="relative overflow-hidden">
         <img
           src={item.Image}
+          
           className="w-full transition-opacity duration-500 group-hover:opacity-0"
         />
 
         <img
           src={item.NewImage}
+        
           className="absolute top-0 left-0 w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-hover:scale-105"
         />
       </div>

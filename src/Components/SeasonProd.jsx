@@ -1,7 +1,7 @@
 const SeasonProd = ({item}) =>{
   
     return(
-        <div className="flex mt-3 gap-4">
+        <div className="flex items-center  gap-4">
             <img src={item.img} className="w-20 h-20 cursor-pointer"></img>
         <span className="flex flex-col gap-3">
             <p className="text-2xl">{item.Name}</p>
