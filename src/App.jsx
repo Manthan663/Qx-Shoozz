@@ -13,7 +13,7 @@ import SneakersData from "./Components/SneakersData";
 import Sneakers from "./Components/Snearkers";
 import Store from "./Components/Store";
 import Post from "./Components/Post";
-
+import News from "./Components/News";
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
       <Store />
       <Logo />
       <Post />
+      <News/>
     </>
   );
 }

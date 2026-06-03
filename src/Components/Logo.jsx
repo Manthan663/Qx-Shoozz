@@ -11,7 +11,7 @@ const Logo = () => {
           Laoreet ridiculus congue magna malesuada phasellus condimentum taciti
           mus primis.
         </p>
-      </div>
+      
       <div className="bg-white">
         <div className="grid grid-cols-5 gap-8 px-4">
           {Logos.map((logo, index) => (
@@ -24,6 +24,7 @@ const Logo = () => {
           ))}
         </div>
       </div>
+    </div>
     </>
   );
 };
