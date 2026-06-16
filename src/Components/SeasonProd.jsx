@@ -1,14 +1,20 @@
-const SeasonProd = ({item}) =>{
-  
-    return(
-        <div className="flex items-center  gap-4">
-            <img src={item.img} className="w-20 h-20 cursor-pointer"></img>
-        <span className="flex flex-col gap-3">
-            <p className="text-2xl">{item.Name}</p>
-            <p>{item.Price}</p>
-        </span>
-        </div>
-    )
-}
+const SeasonProd = ({ item }) => {
+  return (
+    <div className="flex items-center gap-4">
+      
+      <img
+        src={item.img}
+        alt={item.Name}
+        className="w-20 h-20 object-cover cursor-pointer rounded-md"
+      />
 
-export default SeasonProd
+      <div className="flex flex-col gap-1">
+        <p className="text-lg font-medium">{item.Name}</p>
+        <p className="text-gray-600">{item.Price}</p>
+      </div>
+
+    </div>
+  );
+};
+
+export default SeasonProd;

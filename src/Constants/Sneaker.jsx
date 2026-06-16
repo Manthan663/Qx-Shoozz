@@ -12,7 +12,7 @@ const Sneaker = [
     id: 1,
     Image: prod1,
     NewImage: prod5,
-    Price: "$25.00",
+    Price: "$21.00",
     Name: "Classic White Tennis Sneakers",
     Type: "SportyFeet",
   },

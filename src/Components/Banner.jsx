@@ -2,27 +2,44 @@ import banr1 from "../assets/wide-banner.webp";
 
 const Banner = () => {
   return (
-    <div className="relative flex flex-col">
-      <img src={banr1} className="w-full object-cover"></img>
+    <div className="relative w-full">
 
-      <div className="absolute right-0 top-1/4">
-        <h1 className="tracking-[2px] px-20">COMFORT MEETS FASHION</h1>
-      </div>
-      <span className="absolute top-1/3 right-10">
-        <p className="max-w-lg text-4xl font-semibold">
-          Discover shoes that look great and feel even better
-        </p>
-      </span>
-      <span className="absolute top-1/2 right-10">
-        <p className="max-wlg">
-          Our collection features comfortable and stylish footwear designed to
-          keep your feet happy all day long.
-        </p>
-      </span>
+     
+      <img
+        src={banr1}
+        alt="banner"
+        className="w-full h-75 sm:h-100 md:h-auto object-cover"
+      />
 
-      <button className="absolute right-10 bottom-1/3 bg-red-400 px-3 py-1 text-white cursor-pointer hover:bg-black">SHOP NOW</button>
-    </div>
+     
+      <div className="absolute lg:right-0 lg:max-w-2xl top-1/4 text-center flex items-center justify-center">
         
+        <div className="bg-black/0 md:bg-transparent text-white px-6 sm:px-10 md:px-20 lg:max-w-xl">
+
+       
+          <h1 className="tracking-[2px] text-xs sm:text-sm md:text-xs lg:text-lg mb-2 text-gray-600">
+            COMFORT MEETS FASHION
+          </h1>
+
+         
+          <p className="text-lg sm:text-2xl md:text-4xl font-semibold leading-snug text-black">
+            Discover shoes that look great and feel even better
+          </p>
+
+          
+          <p className="mt-3 text-xs sm:text-sm md:text-base text-black max-w-md">
+            Our collection features comfortable and stylish footwear designed to
+            keep your feet happy all day long.
+          </p>
+
+         
+          <button className="mt-5 bg-red-500 hover:bg-black transition px-4 py-2 text-sm sm:text-base">
+            SHOP NOW
+          </button>
+
+        </div>
+      </div>
+    </div>
   );
 };
 

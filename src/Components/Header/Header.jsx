@@ -1,13 +1,11 @@
 import Topbar from "./Topbar";
 import Navbar from "./Navbar";
 
-
-const Header = () => {
+const Header = ({ wishlist }) => {
   return (
     <>
       <Topbar />
-      <Navbar />
-      
+      <Navbar wishlist={wishlist} />
     </>
   );
 };
