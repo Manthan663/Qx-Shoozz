@@ -10,7 +10,7 @@ import {
 
 const FooterBottom = () => {
   return (
-    <div className="border-t border-gray-300 mt-10 pt-6 flex justify-between items-center">
+   <div className="border-t border-gray-300 mt-10 pt-6 flex flex-col md:flex-row  items-center gap-4 px-6 md:px-8">
       <p>
         Copyright © 2024 <span className="text-red-400">Shooz</span>. All rights
         reserved
